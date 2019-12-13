@@ -24,13 +24,13 @@
       var wallet = document.getElementsByClassName("stellarWallet");
       var key;
 
-			function getKeys() {
-	      for (key = 0; key < wallet.length; key++) {
-	        keysArray.push(wallet[key].id)
-	      }
-			}
+      function getKeys() {
+        for (key = 0; key < wallet.length; key++) {
+          keysArray.push(wallet[key].id)
+	}
+      }
 
-			getKeys();
+      getKeys();
 
       var request = new XMLHttpRequest();
       (function loop(i, length) {
